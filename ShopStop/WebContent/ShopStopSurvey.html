@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ShopStopSurvey</title>
+</head>
+<body>
+<form action="/ShopStop/Survey"
+ method =POST>
+ <p>
+ <input type=hidden name=survey value=survey01Results>
+ </p>
+ <h1>Shop Stop Survey </h1><BR>
+ <BR>
+ How many items do you purchase monthly from Shop Stop  ?<BR>
+ <BR>
+ <input name=rbitems type=radio value=1-100 checked>
+ 1-100				<BR>
+ <input name=rbitems type=radio value=100-200 >
+ 100-200				<BR>
+ <input name=rbitems type=radio value=200-300 >
+ 200-300				<BR>
+ <input name=rbitems type=radio value=300-400 >
+ 300-400				<BR>
+ <input name=rbitems type=radio value=500-more>
+ 500-more				<BR>
+ <BR>
+ General Comments?<BR>
+ <BR>
+ <input type=text name=txtcomment>
+ <BR><BR>
+ <input type=submit>
+ <input type=reset>
+ </p>
+ 
+ </form>
+</body>
+</html>
